@@ -27,11 +27,11 @@ martian = media.Movie("Martian",
                       "https://www.youtube.com/watch?v=ej3ioOneTy8")
 
 deadpool = media.Movie("Deadpool",
-                     "A former Special Forces operative turned mercenary "
-                     " is subjected to a rogue experiment that leaves him "
-                     "with accelerated healing powers, adopting the alter ego Deadpool.",
-                     "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg",
-                     "https://www.youtube.com/watch?v=8wrdUol28hM")
+                       "A former Special Forces operative turned mercenary "
+                       " is subjected to a rogue experiment that leaves him "
+                       "with accelerated healing powers, adopting the alter ego Deadpool.",
+                       "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg",
+                       "https://www.youtube.com/watch?v=8wrdUol28hM")
 
 # movies is an array with the Movie objects.
 movies = [toy_story, avatar, civil_war, bvs, martian, deadpool]
@@ -39,6 +39,3 @@ movies = [toy_story, avatar, civil_war, bvs, martian, deadpool]
 # Calls open_movies_page() function and passing movies list of Movie objects.
 # This function will generate a HTML based on the list of Movie objects.
 fresh_tomatoes.open_movies_page(movies)
-
-
-
